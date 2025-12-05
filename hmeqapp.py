@@ -7,7 +7,7 @@ import sklearn  # This is needed for the pickle file to load!
 
 # Load the trained model
 # --- Put the Model in Drive First---
-with open("C:\Users\catnp\OneDrive\Documents\BUS 458\hmeq_model.pkl", "rb") as file:
+with open("C:\\Users\\catnp\\OneDrive\\Documents\\BUS 458\\hmeq_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 
